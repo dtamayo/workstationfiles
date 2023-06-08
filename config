@@ -1,0 +1,17 @@
+Host sphinx
+    HostName sphinx.physics.hmc.edu 
+
+Host hr
+    Hostname hr8799.physics.hmc.edu 
+    ProxyJump sphinx
+
+Host trappist1 
+    Hostname trappist1.physics.hmc.edu 
+    ProxyJump sphinx
+
+Host kepler11 
+    Hostname trappist1.physics.hmc.edu 
+    ProxyJump sphinx
+
+Host sauron
+    HostName sauron.astro.cornell.edu
