@@ -10,7 +10,7 @@ Host trappist1
     ProxyJump sphinx
 
 Host kepler11 
-    Hostname trappist1.physics.hmc.edu 
+    Hostname kepler11.physics.hmc.edu 
     ProxyJump sphinx
 
 Host sauron
